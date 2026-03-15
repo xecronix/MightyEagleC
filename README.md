@@ -6,6 +6,8 @@ FILE: README.md
 
 Mighty Eagle C is a C implementation of the Mighty Eagle template engine.
 
+The Mighty Eagle Templating Solution (METS) is capable of replacing a properly tagged text document with external data. This solution has the added advantage of being easily extended via the use of callbacks. Using callbacks a programmer can easily model recursive data and on the fly data translations. Some use cases include translation of data from one format to another, generic templated documents, mail templates, and other similar tasks. The program is particularly well suited for translation of relational data to hierarchical visualizations.
+
 This repo currently contains:
 
 - a static library build target
