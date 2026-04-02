@@ -24,11 +24,10 @@ This repo currently contains:
 MightyEagleLib32.ppw
 
 ## Build
+A build.bat file is included for convenient command-line builds. If you prefer, you can also open the .ppj files located in the root, test, and demo folders in the Pelles C IDE and build them there. Bonus points if you create a single workspace in the IDE containing all three projects.
 
 ```console
-pomake.exe MightyEagleLib32.ppj
-pomake.exe MightyEagleTest32.ppj
-pomake.exe MightyEagleDemo32.ppj
+./build.bat
 ```
 
 ## Run Tests
