@@ -17,11 +17,8 @@ This repo currently contains:
 ## Current Build Outputs
 
 - `MightyEagleLib32.lib`
-- `MightyEagleDemo32.exe`
-- `MightyEagleTest32.exe`
-
-## PellesC Workspace - Easiest build method uses the IDE
-MightyEagleLib32.ppw
+- `demo/MightyEagleDemo32.exe`
+- `test/MightyEagleTest32.exe`
 
 ## Build
 A build.bat file is included for convenient command-line builds. If you prefer, you can also open the .ppj files located in the root, test, and demo folders in the Pelles C IDE and build them there. Bonus points if you create a single workspace in the IDE containing all three projects.
